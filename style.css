@@ -90,3 +90,8 @@ p {
    min-height: auto;
 }
 
+.message {
+    color: red;
+    font-family: inherit;
+}
+

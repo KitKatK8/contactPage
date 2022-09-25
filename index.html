@@ -21,7 +21,7 @@
                 this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started. <br><br> You <em>know</em> you want to!</p>
             
             <div class="formDiv">
-                <form action="http://httpbun.org/post" method="post">
+                <form>
                 <legend>Let's do this!</legend>
                   <fieldset class="row1">
                     <label for="firstName"></label>
@@ -42,7 +42,10 @@
                       <input type="password" id="confirmPassword" required>
                   </fieldset>
                   <fieldset class="row4">
-                      <button type="submit">Submit</button>
+                      <label for="submit"></label>
+                      <button class="submitButton" value="submit" onclick="matchDetection()">Submit</button>
+    
+                      <p id="message"></p>
                   </fieldset>
 
                 </form>
@@ -51,5 +54,6 @@
 
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
