@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+<body>
 
+   
+        <div class="img">   
+            <img src="images/verticalWhiteText.png" alt="logo" class="logo">       
+        </div>
+        <div class="rightContainer">
+            <p>This is not a real online service! You know you need something <br> like
+                this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started. <br><br> You <em>know</em> you want to!</p>
+            
+            <div class="formDiv">
+                <form action="http://httpbun.org/post" method="post">
+                <legend>Let's do this!</legend>
+                  <fieldset class="row1">
+                    <label for="firstName"></label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First name">
+                    <label for="lastName"></label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last name">
+                  </fieldset> 
+                  <fieldset class="row2">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email@example.com">
+                    <label for="phone"></label>
+                    <input type="tel" id="phone"name="phone" placeholder="Phone Number">  
+                  </fieldset>
+                  <fieldset class="row3">
+                      <label for="password">Password: </label>
+                      <input type="password" id="password" required>
+                      <br><label for="confirmPassword">Confirm Password: </label>
+                      <input type="password" id="confirmPassword" required>
+                  </fieldset>
+                  <fieldset class="row4">
+                      <button type="submit">Submit</button>
+                  </fieldset>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
